@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 const generateReadMe = function (projectTitle, description, installationInstructions, usageInformation, contribution, testInstructions, license, licenseBadge, githubUsername, email) {
-    license = 
-    
-    fs.writeFile(path.join(`./results/README_${projectTitle.toUppercase().replace(' ', '_')}.md`),
+    const fileName = `./results/README_${projectTitle.toUpperCase().replace(/\s/gm, '_')}.md`;
+
+    fs.writeFile(fileName,
 
         `
 # ${projectTitle}
