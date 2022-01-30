@@ -47,8 +47,8 @@ ${testInstructions}
 ## Questions
 If you have any questions or concerns, please contact me:
 
-- My github profile https://github.com/${githubUsername}
-- My email ${email}, please with a brief description in the Subject (Bug, Suggestions, Question, Doubts).
+- By github profile https://github.com/${githubUsername}
+- By email ${email}, please with a brief description in the Subject (Bug, Suggestions, Question, Doubts).
 `
         ,
         (err) =>

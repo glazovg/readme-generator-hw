@@ -26,6 +26,8 @@ To start generating README files type in terminal:
 
 2. To create a new one just repeat the previous instructions again.
 
+[Walkthrough video](https://watch.screencastify.com/v/U2sI3wj7DlmFn9tZ0wzd)
+
 NOTE: Every time the command is executed a new README file is going to be created with the following file naming: `README_MY_PROJECT_NAME.md`, under "results" folder, file name can be change as well as downloaded as user prefers.
     
 <a name="license"></a>
@@ -38,14 +40,15 @@ Licensed under the ISC License (ISC).
 Please follow the steps:
 1. Clone the repository in https://github.com/glazovg/readme-generator-hw
 2. Go to the project's folder and run `npm install`
+3. Create a local branch and you will be ready to go.
 
 <a name="tests"></a>
 ## Tests
-This repository does not have tests yet.
+This repository does not have tests yet, but once added it will be under `npm run test`
 
 <a name="questions"></a>
 ## Questions
 If you have any questions or concerns, please contact me:
 
-- My github profile https://github.com/glazovg
-- My email glazovg@gmail.com, please with a brief description in the Subject (Bug, Suggestions, Question, Doubts).
+- By github profile https://github.com/glazovg
+- By email glazovg@gmail.com, please with a brief description in the Subject (Bug, Suggestions, Question, Doubts).
