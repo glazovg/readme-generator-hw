@@ -15,27 +15,27 @@ async function main() {
         },
         {
             name: 'description',
-            type: 'input',
-            message: `Provide a short description explaining the what, why, and how of your project:\n`,
+            type: 'editor',
+            message: `Provide a short description explaining the what, why, and how of your project:`,
         },
         {
             name: 'installationInstructions',
-            type: 'input',
+            type: 'editor',
             message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running?\n',
         },
         {
             name: 'usageInformation',
-            type: 'input',
+            type: 'editor',
             message: 'Provide instructions and examples for use:',
         },
         {
             name: 'contribution',
-            type: 'input',
+            type: 'editor',
             message: 'Include guidelines for how to contribute to your project. The Contributor Covenant (https://www.contributor-covenant.org/) is an industry standard, but you can always write your own:\n',
         },
         {
             name: 'testInstructions',
-            type: 'input',
+            type: 'editor',
             message: 'Provide examples on how to run your tests, it can be steps and commands:\n',
         },
         {

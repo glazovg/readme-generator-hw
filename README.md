@@ -3,7 +3,7 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
-In order to save time ceating README files and also including the most important sections of them, that is why this project was created, this project is going to help you to create professional README files.
+Since README file contains essential information about the repo's project and also can differentiate a high-quality repo from a low-quality one, that is why this program was created to help you generate README files following some basic best practices for creating them.
     
 ## Table of Contents
         
@@ -22,13 +22,15 @@ Execute `npm install` in terminal to install all npm packages
 ## Usage
 To start generating README files type in terminal:
 
-1. `node index.js`, once command is executed README file is going to be created inside result folder.
+1. `node index.js`
+2. Answer all the questions, some of them require an extensive explanation, for those questions the default editor is going to be open (vim for Unix/Linux, notepad.exe for Windows) for a better interaction.
+3. Once all the questions are answered the README file is generated under results folder.
 
-2. To create a new one just repeat the previous instructions again.
+To create a new one just repeat the previous instructions again.
 
 [Walkthrough video](https://watch.screencastify.com/v/U2sI3wj7DlmFn9tZ0wzd)
 
-NOTE: Every time the command is executed a new README file is going to be created with the following file naming: `README_MY_PROJECT_NAME.md`, under "results" folder, file name can be change as well as downloaded as user prefers.
+NOTE: Every time the command is executed a new README file is going to be created with the following file naming: `README_MY_PROJECT_NAME.md`, file name can be change as well as downloaded as user preferences.
     
 <a name="license"></a>
 ## License
@@ -40,7 +42,7 @@ Licensed under the ISC License (ISC).
 Please follow the steps:
 1. Clone the repository in https://github.com/glazovg/readme-generator-hw
 2. Go to the project's folder and run `npm install`
-3. Create a local branch and you will be ready to go.
+3. Create a local branch and you will be all set.
 
 <a name="tests"></a>
 ## Tests
