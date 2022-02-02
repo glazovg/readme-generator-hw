@@ -24,11 +24,12 @@ To start generating README files type in terminal:
 
 1. `node index.js`
 2. Answer all the questions, some of them require an extensive explanation, for those questions the default editor is going to be open (vim for Unix/Linux, notepad.exe for Windows) for a better interaction.
+![Questions Example](/assets/questions_demo.png)
 3. Once all the questions are answered the README file is generated under results folder.
 
 To create a new one just repeat the previous instructions again.
 
-[Walkthrough video](https://watch.screencastify.com/v/U2sI3wj7DlmFn9tZ0wzd)
+[Walkthrough video](https://watch.screencastify.com/v/kJDmoECioRiVbX7OUThT)
 
 NOTE: Every time the command is executed a new README file is going to be created with the following file naming: `README_MY_PROJECT_NAME.md`, file name can be change as well as downloaded as user preferences.
     
